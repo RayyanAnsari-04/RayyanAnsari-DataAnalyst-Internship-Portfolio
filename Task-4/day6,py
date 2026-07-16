@@ -1,0 +1,50 @@
+# ==========================================
+# TASK 4
+# Day 6 - Hypothesis Testing (t-test)
+# ==========================================
+
+import pandas as pd
+from scipy.stats import ttest_ind
+
+# Load Dataset
+df = pd.read_excel("Cleaned_Ecommerce_Sales.xlsx")
+
+# ------------------------------------------
+# Extract Sales Data
+# ------------------------------------------
+
+electronics_sales = df[df["Category"] == "Electronics"]["Sales"]
+
+furniture_sales = df[df["Category"] == "Furniture"]["Sales"]
+
+# ------------------------------------------
+# Perform Independent t-test
+# ------------------------------------------
+
+t_statistic, p_value = ttest_ind(
+    electronics_sales,
+    furniture_sales,
+    equal_var=False
+)
+
+print("========== HYPOTHESIS TEST ==========")
+
+print("T-Statistic :", round(t_statistic,4))
+print("P-Value     :", round(p_value,4))
+
+# ------------------------------------------
+# Interpretation
+# ------------------------------------------
+
+alpha = 0.05
+
+print("\n========== RESULT ==========")
+
+if p_value < alpha:
+    print("Reject the Null Hypothesis (H₀)")
+    print("There is a statistically significant difference between Electronics and Furniture sales.")
+else:
+    print("Fail to Reject the Null Hypothesis (H₀)")
+    print("There is no statistically significant difference between Electronics and Furniture sales.")
+
+print("\n✅ Day 6 Hypothesis Testing Completed Successfully!")

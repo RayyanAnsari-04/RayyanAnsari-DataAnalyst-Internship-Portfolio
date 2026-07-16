@@ -1,0 +1,84 @@
+# ==========================================
+# TASK 4
+# Day 4 - Data Visualization & Storytelling
+# ==========================================
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load Cleaned Dataset
+df = pd.read_excel("Cleaned_Ecommerce_Sales.xlsx")
+
+# -----------------------------
+# Sales by Category
+# -----------------------------
+
+category_sales = df.groupby("Category")["Sales"].sum()
+
+plt.figure(figsize=(8,5))
+plt.bar(category_sales.index, category_sales.values)
+plt.title("Sales by Category")
+plt.xlabel("Category")
+plt.ylabel("Sales")
+plt.tight_layout()
+plt.show()
+
+# -----------------------------
+# Sales by Region
+# -----------------------------
+
+region_sales = df.groupby("Region")["Sales"].sum()
+
+plt.figure(figsize=(8,5))
+plt.bar(region_sales.index, region_sales.values)
+plt.title("Sales by Region")
+plt.xlabel("Region")
+plt.ylabel("Sales")
+plt.tight_layout()
+plt.show()
+
+# -----------------------------
+# Pie Chart - Category Sales
+# -----------------------------
+
+plt.figure(figsize=(6,6))
+plt.pie(category_sales.values,
+        labels=category_sales.index,
+        autopct='%1.1f%%',
+        startangle=90)
+
+plt.title("Category-wise Sales Distribution")
+plt.tight_layout()
+plt.show()
+
+# -----------------------------
+# Top 5 Customers
+# -----------------------------
+
+top_customers = df.groupby("Customer_Name")["Sales"].sum().sort_values(ascending=False).head(5)
+
+plt.figure(figsize=(8,5))
+plt.bar(top_customers.index, top_customers.values)
+plt.title("Top 5 Customers by Sales")
+plt.xlabel("Customer")
+plt.ylabel("Sales")
+plt.xticks(rotation=20)
+plt.tight_layout()
+plt.show()
+
+# -----------------------------
+# Top 5 Products
+# -----------------------------
+
+top_products = df.groupby("Product")["Sales"].sum().sort_values(ascending=False).head(5)
+
+plt.figure(figsize=(8,5))
+plt.bar(top_products.index, top_products.values)
+plt.title("Top 5 Products by Sales")
+plt.xlabel("Product")
+plt.ylabel("Sales")
+plt.xticks(rotation=20)
+plt.tight_layout()
+plt.show()
+
+print("✅ Day 4 Data Visualization Completed Successfully!")
