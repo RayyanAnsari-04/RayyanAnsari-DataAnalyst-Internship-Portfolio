@@ -1,0 +1,51 @@
+Order_ID,Customer_ID,Customer_Name,Category,Product,Unit_Price,Quantity,Sales,Profit,Region
+ORD001,C001,Rahul Sharma,Electronics,Laptop,55000.0,1,55000.0,8000.0,Mumbai
+ORD002,C002,Priya Patel,Fashion,Shoes,3500.0,2,7000.0,1500.0,Pune
+ORD003,C003,Amit Verma,Home,Chair,4500.0,3,13500.0,3000.0,Delhi
+ORD004,C004,Sneha Joshi,Electronics,Mobile,25000.0,1,25000.0,5000.0,Bangalore
+ORD005,C005,Vikram Singh,Grocery,Food Items,6000.0,5,30000.0,4000.0,Mumbai
+ORD006,C006,Neha Kapoor,Beauty,Cosmetics,2500.0,4,10000.0,2500.0,Delhi
+ORD007,C007,Arjun Mehta,Electronics,Headphones,3000.0,2,6000.0,1200.0,Pune
+ORD008,C008,Karan Shah,Home,Table,9000.0,1,9000.0,2000.0,Ahmedabad
+ORD009,C009,Riya Nair,Fashion,Dress,5000.0,2,10000.0,2200.0,Bangalore
+ORD010,C010,Manish Gupta,Electronics,Tablet,18000.0,1,18000.0,3500.0,Mumbai
+ORD011,C011,Anjali Rao,Home,Sofa,45000.0,1,45000.0,9000.0,Delhi
+ORD012,C012,Rohit Das,Grocery,Snacks,2000.0,6,12000.0,1800.0,Pune
+ORD013,C013,Pooja Jain,Beauty,Perfume,4000.0,2,8000.0,1700.0,Mumbai
+ORD014,C014,Sahil Khan,Fashion,Jacket,7000.0,1,7000.0,1600.0,Delhi
+ORD015,C015,Meera Iyer,Electronics,Camera,35000.0,1,35000.0,7000.0,Bangalore
+ORD016,C016,Dev Patel,Home,Lamp,2500.0,4,10000.0,2000.0,Ahmedabad
+ORD017,C017,Nisha Roy,Fashion,Bag,4500.0,2,9000.0,1900.0,Mumbai
+ORD018,C018,Yash Kumar,Electronics,Watch,8000.0,1,8000.0,1800.0,Delhi
+ORD019,C019,Tanya Bose,Grocery,Beverages,3000.0,5,15000.0,2500.0,Pune
+ORD020,C020,Ajay Singh,Home,Bed,30000.0,1,30000.0,6000.0,Bangalore
+ORD021,C021,Rakesh Gupta,Electronics,Monitor,12000.0,2,24000.0,4500.0,Mumbai
+ORD022,C022,Simran Kaur,Fashion,Jeans,3000.0,3,9000.0,1800.0,Delhi
+ORD023,C023,Harsh Shah,Beauty,Skincare,3500.0,3,10500.0,2300.0,Pune
+ORD024,C024,Kavita Rao,Home,Curtains,4000.0,2,8000.0,1600.0,Ahmedabad
+ORD025,C025,Aditya Jain,Electronics,Keyboard,2500.0,4,10000.0,2000.0,Mumbai
+ORD026,C026,Ishita Roy,Fashion,Top,2000.0,5,10000.0,2100.0,Delhi
+ORD027,C027,Varun Das,Grocery,Rice,5000.0,4,20000.0,3500.0,Pune
+ORD028,C028,Sonia Mehta,Electronics,Printer,15000.0,1,15000.0,3000.0,Bangalore
+ORD029,C029,Nitin Kumar,Home,Desk,8000.0,2,16000.0,3200.0,Mumbai
+ORD030,C030,Divya Shah,Beauty,Makeup Kit,6000.0,2,12000.0,2500.0,Delhi
+ORD031,C031,Raj Malhotra,Electronics,Speaker,7000.0,2,14000.0,2800.0,Pune
+ORD032,C032,Ayesha Khan,Fashion,Saree,6000.0,2,12000.0,2500.0,Mumbai
+ORD033,C033,Kunal Verma,Grocery,Oil,2500.0,8,20000.0,3000.0,Delhi
+ORD034,C034,Preeti Nair,Home,Bookshelf,7000.0,1,7000.0,1500.0,Bangalore
+ORD035,C035,Mohit Sharma,Electronics,Smart TV,60000.0,1,60000.0,12000.0,Mumbai
+ORD036,C036,Pallavi Joshi,Fashion,Kurti,3500.0,3,10500.0,2200.0,Pune
+ORD037,C037,Gaurav Singh,Beauty,Cream,1500.0,5,7500.0,1400.0,Delhi
+ORD038,C038,Snehal Patil,Home,Kitchen Set,10000.0,1,10000.0,2200.0,Ahmedabad
+ORD039,C039,Rahul Mehta,Electronics,Mouse,1500.0,4,6000.0,1200.0,Mumbai
+ORD040,C040,Neel Shah,Fashion,Shirt,2500.0,3,7500.0,1500.0,Bangalore
+ORD041,C041,Ankit Rao,Grocery,Coffee,3000.0,4,12000.0,2200.0,Pune
+ORD042,C042,Maya Gupta,Home,Mirror,3500.0,2,7000.0,1400.0,Delhi
+ORD043,C043,Suresh Kumar,Electronics,Router,5000.0,2,10000.0,2000.0,Mumbai
+ORD044,C044,Rohan Jain,Fashion,Trousers,4000.0,2,8000.0,1700.0,Pune
+ORD045,C045,Alisha Roy,Beauty,Shampoo,1800.0,6,10800.0,2000.0,Delhi
+ORD046,C046,Vivek Shah,Home,Shoe Rack,5500.0,2,11000.0,2300.0,Ahmedabad
+ORD047,C047,Komal Das,Electronics,Power Bank,2000.0,5,10000.0,2100.0,Mumbai
+ORD048,C048,Tarun Patel,Fashion,Sweater,4500.0,2,9000.0,1900.0,Bangalore
+ORD049,C049,Ritu Sharma,Grocery,Dry Fruits,7000.0,3,21000.0,4000.0,Pune
+ORD050,C050,Sameer Khan,Electronics,Laptop Bag,3000.0,4,12000.0,2500.0,Delhi
